@@ -130,7 +130,7 @@ async function checkMultipleUsers(
 		let response: Response;
 		try {
 			response = await fetch(
-				"https://roscoe.robalyx.com/v1/lookup/roblox/user",
+				"https://roscoe.rotector.com/v1/lookup/roblox/user",
 				{
 					method: "POST",
 					headers: {
